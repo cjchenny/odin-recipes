@@ -3,12 +3,18 @@
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.soup-can{
+    display: block;
+}
 .h1 {
+    margin-bottom: 0px;
     color: white;
     background-color: red;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
+    margin: 0px auto 0px auto;
+    display: block;
 }
 .recipes,
 .h2,
@@ -19,8 +25,15 @@
     text-align: center;
 }
 .link{
+    display: inline-block;
+    margin: 0px auto;
+    color: black;
+    background-color: #C9B43A;
     font-size: 30px;
     text-align: center;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
 }
 .description{
     font-size: 30px;
@@ -39,3 +52,13 @@
     font-size: 20px;
     text-align: left;
 }
+.recipes{
+    margin: -20px auto 0px auto;
+    box-sizing: border-box;
+    width: auto;
+}
+.soup-can{
+    display: block;
+    margin: 10px auto;
+}
+
