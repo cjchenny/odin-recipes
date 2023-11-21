@@ -24,17 +24,7 @@
     font-size: 35px;
     text-align: center;
 }
-.link{
-    display: inline-block;
-    margin: 0px auto;
-    color: black;
-    background-color: #C9B43A;
-    font-size: 30px;
-    text-align: center;
-    box-sizing: border-box;
-    border-color: black;
-    border-style: solid;
-}
+
 .description{
     font-size: 30px;
     text-align: center;
@@ -60,5 +50,24 @@
 .soup-can{
     display: block;
     margin: 10px auto;
+}
+.box{
+    display: flex;
+}
+.box div{
+    display: inline-block;
+    color: black;
+    background-color: #C9B43A;
+    font-size: 30px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    flex:2;
+    margin-left: auto;
+}
+
+.font{
+    color: black;
+    font-size: 30px;
 }
 
